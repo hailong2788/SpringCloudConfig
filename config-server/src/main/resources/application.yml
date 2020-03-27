@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhanghl890112/mygit
+          search-paths: config-client-dev.yml
+          username: zhanghl890112
+          password:
+      label: master
+  application:
+    name: config-server
+server:
+  port: 8769
+
+
+     
+
+
